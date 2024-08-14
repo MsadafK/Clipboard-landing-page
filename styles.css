@@ -95,6 +95,7 @@ p {
   margin: 1em 0;
   width: 100%;
 }
+
 .grid-second-row-left-div div {
   margin: 0.5em 0;
 }
@@ -155,7 +156,13 @@ p {
 .icons img {
   margin: 0 0.5em;
 }
-
+header,
+.hero-section,
+.sponsors,
+.last-header,
+.stats-and-sponsors {
+  margin-bottom: 6em;
+}
 /* 375px and more */
 @media (min-width: 375px) {
   header,
@@ -183,6 +190,9 @@ p {
   }
   .btn {
     padding: 0.75em 1em;
+  }
+  .last-header {
+    margin-bottom: 6em;
   }
 }
 
@@ -225,6 +235,7 @@ p {
     margin: 0 auto;
     padding: 0;
   }
+
   .hero-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -307,6 +318,12 @@ p {
   }
   .icons {
     margin: 0;
+  }
+
+  .sponsors,
+  .last-header,
+  .stats-and-sponsors {
+    margin-bottom: 6em;
   }
 }
 
